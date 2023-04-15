@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**IMMerge** is a portable application that allows you to send personalised messages to multiple recipients using [WhatsApp Web](https://web.whatsapp.com). IMMerge works on Windows, macOS, and Linux operating systems.
+**IMMerge** is a portable application that allows you to send personalised messages to multiple recipients using [WhatsApp Web](https://web.whatsapp.com). IMMerge works on Windows and Linux operating systems.
 
 IMMerge a third-party application and is not affiliated with WhatsApp.
 
@@ -35,14 +35,13 @@ The following web browsers are supported:
 
 1. If you do not have an account, you can [sign up for a free trial](https://immerge.gazelleengineering.com)
 2. Ensure that you have one of the [supported web browsers](#supported-web-browsers) installed
-3. Download the application for your operating system (Windows, macOS, or Linux)
+3. Download the application for your operating system (Windows or Linux)
 4. Extract the application from the downloaded archive
 5. Start the application
 
 Depending on the operating system, there may be additional setup steps required:
 
 * [Setup for Windows users](#setup-for-windows-users)
-* [Setup for macOS users](#setup-for-macos-users)
 * [Setup for Linux users](#setup-for-linux-users)
 
 ## Contact List Format
@@ -185,54 +184,6 @@ Windows Defender might also prevent IMMerge from working. To solve this:
 5. Click on the card that applies to IMMerge, and select `Allow` in the `Actions` dropdown menu
 6. The application should be restored to its downloaded location
 7. Double-click IMMerge to run
-
-## Setup for macOS Users
-
-IMMerge is not distributed through the App Store, so macOS users may see a warning when running IMMerge.
-
-![macOS open warning](images/macos_open_warning_1.webp)
-
-This does not mean that IMMerge is unsafe or contains malicious code.
-
-If IMMerge was downloaded from the [official release repository](https://github.com/gazelleengineering/IMMerge/releases), the warning can be safely dismissed.
-
-> **Important**: Only trust the IMMerge if it was downloaded from the [official release repository](https://github.com/gazelleengineering/IMMerge/releases)
-
-### Option 1: Control-click to Open
-
-1. Ensure IMMerge was downloaded from the [official release repository](https://github.com/gazelleengineering/IMMerge/releases)
-2. Control-click on the IMMerge icon and select `Open`
-
-    ![macOS menu open](images/macos_menu_open.webp)
-3. The warning pop-up will now show an additional `Open` button
-
-    ![macOS open warning](images/macos_open_warning_2.webp)
-4. Click on open
-
-### Option 2: macOS User Guide
-
-[Control-click to open](#option-1-control-click-to-open) might not work on all versions of macOS. The [macOS User Guide](https://support.apple.com/guide/mac-help/mchleab3a043) contains a more complete list of solutions.
-
-1. Ensure IMMerge was downloaded from the [official release repository](https://github.com/gazelleengineering/IMMerge/releases)
-2. Visit the [macOS User Guide](https://support.apple.com/guide/mac-help/mchleab3a043)
-3. Select your OS version
-4. Follow the steps listed
-
-### Option 3: Resolve Using the Terminal
-
-Alternatively, the warning can be removed using the `Terminal`:
-
-1. Ensure IMMerge was downloaded from the [official release repository](https://github.com/gazelleengineering/IMMerge/releases)
-2. Open the Finder app and navigate to where you downloaded the IMMerge app bundle e.g. the `Downloads` folder
-3. Control-click on the IMMerge icon and select `New Terminal at Folder` ![macOS menu terminal](images/macos_menu_terminal.webp)
-4. Copy the following command into the terminal, and press enter:
-
-    ```shell
-    xattr -r -d com.apple.quarantine .
-    ```
-
-    ![macOS terminal command](images/macos_terminal_command.webp)
-5. Double-click IMMerge to run
 
 ## Setup for Linux Users
 
