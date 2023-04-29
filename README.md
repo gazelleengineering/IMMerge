@@ -131,6 +131,8 @@ Under the `Run` tab:
 6. Follow the instructions to sign in to WhatsApp Web
 7. IMMerge will assume control of the browser window to send the personalised messages
 
+> **Note**: Do not interact manually with the WhatsApp Web interface. Doing so could result in incorrect validation or messaging. This is a known issue that will be fixed in the next release.
+
 > **Tip**: As a final preview, we recommend sending the message to yourself. You can do this by adding yourself to the contact list e.g. at the top, and only selecting yourself as the recipient.
 
 ## Data Privacy
