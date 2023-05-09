@@ -12,7 +12,11 @@ IMMerge is a multi-platform application written in [Python](https://www.python.o
 
 Unfortunately, this process is known to result in false positive malware flags by antivirus software, particularly if [heuristic analysis](https://en.wikipedia.org/wiki/Heuristic_analysis) is used. **This does not mean that IMMerge contains malware.**
 
-Microsoft allows submission of files for malware analysis, and has **confirmed that the Windows version of IMMerge does not contain any malware**. By utilising this process, Windows Defender should not mistakenly flag IMMerge as malware.
+We have notified the following antivirus service providers of the false positives, and they have removed the incorrect detections after further analysis:
+
+* AVG
+* IKARUS
+* Microsoft (Windows Defender)
 
 We encourage our users to scan IMMerge using a trusted service (for example, [VirusTotal](https://www.virustotal.com)). In particular, review the sandbox reports to verify the safety of the application.
 
